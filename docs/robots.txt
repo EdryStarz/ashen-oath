@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://edrystarz.github.io/ashen-oath/sitemap.xml

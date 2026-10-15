@@ -25,3 +25,7 @@ signing-credential.xml
 # Historical 3D resources are local archives; active release uses pixel assets.
 assets/models/
 assets/materials/
+
+# Local browser verification sessions
+.playwright-cli/
+node_modules/
