@@ -59,6 +59,14 @@ translations = {
 'Share the adventure':'Поделиться приключением','An independent little adventure.':'Независимая игра и маленькое приключение.',
 'Star on GitHub':'Поддержать звездой на GitHub','Source code':'Исходный код','Privacy':'Конфиденциальность','Support':'Поддержка','Close screenshot':'Закрыть скриншот'
 }
+translations.update({
+ 'ENGLISH LOCALIZATION PREVIEW':'НАСТОЯЩИЕ СКРИНШОТЫ ИГРЫ',
+ 'English UI preview. The current Android release is in Russian.':'Кадры русской версии: привычки, развитие героини и охота на существ.',
+ 'English preview of the habit planner':'Планировщик привычек с русским интерфейсом',
+ 'English preview of Iara and her equipment':'Иара, уровень героя и снаряжение на русском',
+ 'English preview of the forest battle':'Охота на Пустотника с русским интерфейсом',
+ 'Meet your other life.':'Твои дела — её приключение.'
+})
 for source,target in sorted(translations.items(), key=lambda x:-len(x[0])):
     text=text.replace(source,target)
 text=text.replace('<html lang="en">','<html lang="ru">')
@@ -67,6 +75,9 @@ for resource in ['site-assets/','site.css','site.js','rustore/']:
     text=text.replace('href="'+resource,'href="../'+resource).replace('src="'+resource,'src="../'+resource).replace('data-image="'+resource,'data-image="../'+resource)
 text=text.replace('rel="canonical" href="https://edrystarz.github.io/ashen-oath/"','rel="canonical" href="https://edrystarz.github.io/ashen-oath/ru/"')
 text=text.replace('property="og:url" content="https://edrystarz.github.io/ashen-oath/"','property="og:url" content="https://edrystarz.github.io/ashen-oath/ru/"')
+text=text.replace('class="gallery-head" lang="en"','class="gallery-head" lang="ru"').replace('class="screens" lang="en"','class="screens" lang="ru"')
+for screen in ['habits','hero','battle']:
+    text=text.replace('screen-'+screen+'-en.png','screen-'+screen+'.png')
 (root/'ru').mkdir(exist_ok=True)
 (root/'ru/index.html').write_text(text,encoding='utf-8')
 (root/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: https://edrystarz.github.io/ashen-oath/sitemap.xml\n',encoding='utf-8')

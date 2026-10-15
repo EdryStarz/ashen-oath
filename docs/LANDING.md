@@ -12,3 +12,7 @@ Social image: site-assets/social-card.png (1200x630), generated with tools/rende
 Browser verification: English and Russian at 375, 390, 768, 1024, 1440px; no horizontal overflow. XP toggles 0→60→40; screenshot dialog opens and Escape closes it; share fallback shows confirmation; reduced-motion CSS disables animation. Browser JS errors: zero. No claim of guaranteed virality is made.
 
 To update the Android download, change the pinned release asset links in index.html and README.md, regenerate Russian, and verify both languages. The game APK and signing key are unaffected by website changes.
+
+
+## Screenshot localization
+The English gallery uses screen-*-en.png, captured by tools/capture_english_preview.gd with a website-only English UI text catalog. These are explicitly labeled localization previews: the downloadable 0.7.2 APK remains Russian. Russian pages retain the original Russian screen-*.png files. The capture tool uses a unique --store-capture save and does not alter shipped game code or user saves. Rebuild both languages after editing gallery markup.
