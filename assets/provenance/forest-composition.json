@@ -1,0 +1,38 @@
+{
+  "version": "0.5.1",
+  "sources": [
+    "Poly Haven A Verdant Trail",
+    "Poly Haven pine_sapling_small"
+  ],
+  "license": "CC0",
+  "changes": [
+    "curated scan perimeter and open clearing",
+    "near rocks retain high mesh with averaged geometric normals",
+    "native Godot 512x1024 transparent pine render for distant forest",
+    "five near mesh trees; forty-eight far cards",
+    "220 grass instances in one MultiMesh",
+    "procedural undulating terrain with texture blended trail",
+    "daylight and fire balanced; tent folds seams back wall ropes and stakes",
+    "alpha-to-coverage foliage edges with MSAA",
+    "normal 3D oversampling 1.6; high 2.0"
+  ],
+  "generators": [
+    "tools/render_pine_impostor.gd",
+    "tools/extract_near_rocks.gd",
+    "scripts/world.gd"
+  ],
+  "files": [
+    {
+      "path": "assets/models/foliage/pine_impostor.png",
+      "sha256": "3a7e2f0bd62b0512cb1d617fca8ec59268b0ebcb0228f6286e8e5a1394c949b5"
+    },
+    {
+      "path": "assets/models/verdant_mobile/near_boulder_01_001.res",
+      "sha256": "2b46f31374b0ba06bc9806be01838b135c1e5a6adf500111c6b3e022a68045c8"
+    },
+    {
+      "path": "assets/models/verdant_mobile/near_boulder_01_002.res",
+      "sha256": "0ed5ece2e00c5254c20b32fcb43ee14031a0504bf3e04c210b35e1088e88c4d9"
+    }
+  ]
+}

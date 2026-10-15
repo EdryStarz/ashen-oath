@@ -1,0 +1,11 @@
+{
+  "source": "https://dl.polyhaven.org/file/ph-assets/Scenes/verdant_trail.zip",
+  "page": "https://blog.polyhaven.com/verdant-trail/",
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/license",
+  "bytes": 1918654862,
+  "sha1": "999c7bcb199a445c057cacdc27cbc7d5d3107976",
+  "sha1_verification": "matches vendor x-bz-info-large_file_sha1 header",
+  "status": "mobile variants integrated; see verdant-mobile.json",
+  "original_archive_local_backup": "F:/Downloads/AshenOath-verdant_trail-source.zip"
+}

@@ -1,0 +1,27 @@
+.godot/
+.tools/
+artifacts/*.exe
+artifacts/*.pck
+artifacts/*.apk
+artifacts/*.aab
+artifacts/*.log
+*.tmp
+*.keystore
+*.jks
+__pycache__/
+
+# Licensed user-owned model; obtain separately, never redistribute raw files.
+assets/models/private_maiden/
+
+# Generated builds, captures, local saves and signing material.
+artifacts/
+*.p12
+*.pfx
+*.pem
+signing-credential.xml
+.env
+.env.*
+
+# Historical 3D resources are local archives; active release uses pixel assets.
+assets/models/
+assets/materials/

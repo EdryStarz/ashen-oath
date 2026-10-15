@@ -1,0 +1,12 @@
+{
+  "source": "https://download.blender.org/durian/sprint/sintel_model.blend.zip",
+  "source_sha256": "34092c393beb0b234f8639b4c89f66a9a59e53fae57089147d20e2deb9de4878",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "permission_source": "https://durian.blender.org/sharing/",
+  "attribution": "Sintel: Angela Guenette; Blender Foundation / Durian team (2010).",
+  "changes": "one subdivision level, fitted coat and hair geometry, ceramic left arm, authored 19-bone skin and three clips, PBR adaptation",
+  "derived": "assets/models/iara_skinned/iara.glb",
+  "derived_sha256": "d2113792630e5bf6497e7e6a9616324128c43b7c0d6b648a9b75559928995721",
+  "tool": "Blender 4.5.9 (official SHA256 verified)"
+}

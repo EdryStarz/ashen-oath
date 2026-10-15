@@ -1,0 +1,14 @@
+{
+  "source": "https://www.cgtrader.com/free-3d-models/character/woman/unity-female-warrior-assassin",
+  "author": "RetroStyleGames",
+  "license": "CGTrader Royalty Free (no AI); do not redistribute raw resources",
+  "source_sha256": "21c470a2bcd01761d6fb125b70b59476c5ae2a9f9ddcd2cc1f16e52a2a6062bc",
+  "derived_sha256": "f0d6fd2e8e436730e96702ea87b0d41635650299825ac44f102632ca42aa08ea",
+  "bones": 125,
+  "clips": [
+    "idle",
+    "strike",
+    "hit"
+  ],
+  "changes": "Godot GLB conversion, mobile texture sizes, removed source weapons; original authored rig and animation retained"
+}
